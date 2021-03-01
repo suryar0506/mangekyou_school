@@ -1,0 +1,15 @@
+#corpse{
+    background-image: url("Background.png");
+    text-align: center;
+}
+#chat_pic{
+    height: 200px;
+    width: 200px;
+}
+#img_chat_pic{
+    height: 400px;
+    width: 400px;
+}
+html{
+    border: solid 10px;
+}
