@@ -36,3 +36,9 @@ function redirectToRoomName(name){
 localStorage.setItem("Room Name : ",name);
 window.location = "chat_page.html";
 }
+
+function logOut(){
+  localStorage.removeItem(room_name);
+  localStorage.removeItem(student_name);
+  window.location = "login.html";
+}

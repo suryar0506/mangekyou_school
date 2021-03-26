@@ -17,37 +17,16 @@
 <body>
     <center>
        <h1>Message Page</h1>
-    <div id = "message_holder_div">
-
-    </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+       <button onclick = "logOut()" class = "btn btn-primary">Log Out</button>
+    <div id = "message_holder_div" style="text-align: left; margin-bottom: 70px; margin-left: 70px;"></div>
 <br>
 <br>
 <br>
     <span id = "input_plus_button_holder">
         <input id = "message_input" type = "text" class = "form-control" placeholder = "Type Message here">
         <br>
-        <button class = "btn btn-primary" onclick = "send()">Send your Message</button></button>
+        <button class = "btn btn-primary" onclick = "send()">Send your Message</button>
+        <br>
     </span> 
     </center>
     <script src = "chat_page.js"></script>
